@@ -49,12 +49,13 @@
             <artifactId>lombok</artifactId>
             <version>1.18.22</version>
         </dependency>
-<!--         https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
-        <dependency>
-            <groupId>org.sonarsource.scanner.maven</groupId>
-            <artifactId>sonar-maven-plugin</artifactId>
-            <version>3.9.0.2155</version>
-        </dependency>
+<!-- https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
+<dependency>
+    <groupId>org.sonarsource.scanner.maven</groupId>
+    <artifactId>sonar-maven-plugin</artifactId>
+    <version>3.8.0.2131</version>
+</dependency>
+
         <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-deploy-plugin -->
         <dependency>
             <groupId>org.apache.maven.plugins</groupId>

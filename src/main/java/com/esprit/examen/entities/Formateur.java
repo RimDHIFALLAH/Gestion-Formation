@@ -108,9 +108,17 @@ public class Formateur implements Serializable{
 		this.email = email;
 		this.password = password;
 	}
-	public Formateur(String string, String string2, String string3, String string4, String string5, String string6) {
+	public Formateur() {
 		super();
-		// TODO Auto-generated constructor stub
+ 	}
+	public Formateur(String nom, String prenom, Poste poste, Contrat contrat, String email, String password) {
+		super();
+		this.nom = nom;
+		this.prenom = prenom;
+		this.poste = poste;
+		this.contrat = contrat;
+		this.email = email;
+		this.password = password;
 	}
 	
 	

@@ -23,20 +23,6 @@ public class IFormateurServiceTest {
     @Autowired
     FormateurService formateurService;
 
-//    @Test
-//    public void testListFormateur() {
-//
-//        List<Formateur> lst1 =  formateurService.listFormateurs();
-//        int val1 = lst1.size();
-//        Formateur f1 = new Formateur(null,"Oussama","Tlili",Ingénieur,EXPERT,"oussama@esprit.tn","password123");;
-//        formateurService.addandmodifyFormateur(f1);
-//        List<Formateur> lst2 =  formateurService.listFormateurs();
-//        int val2 = lst2.size();
-//
-//        assertEquals(val2,val1 +1);
-//
-//    }
-
     @Test
     @Transactional
     public void testaddFormateur() {
